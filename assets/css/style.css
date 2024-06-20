@@ -1,17 +1,8 @@
 
-
 h1 {
-    color: blue;
+    color: #ffffff;
     font-size: 400px;
 }
-
-
-
-
-
-
-
-
 
 * {
     box-sizing: border-box;
@@ -36,7 +27,7 @@ body {
 }
 
 .seo {
-    color: orange;
+    color: gray;
 }
 
 .header div {
@@ -47,11 +38,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header div nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header div nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -61,7 +52,7 @@ a {
     text-decoration: none;
 }
 
-p {
+label {
     font-size: 16px;
 }
 
