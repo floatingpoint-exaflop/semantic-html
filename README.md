@@ -1,9 +1,12 @@
-# semantic-html
-Homework for Week One of the U of M Bootcamp
+# Module 1 Challenge: Semantic HTML Homework
 
-## Description
+This Homework assignment was completed for Week One of the U of M Bootcamp, to practice html and css work. It's largely focused on refactoring a starter code for a webpage of a fictional SEO B2B Company, replacing div tags with more specific semantic html tags.
 
-This Homework assignment was completed for my boot camp's first week, to practice html and css work. It's largely focused on fixing semantic tags from a starter code.
+## Link to Deployed Version
+[Click here to view the deployed webpage](https://floatingpoint-exaflop.github.io/semantic-html)
+
+## Screenshot of Deployed Version
+[Screenshot of the deployed webpage](./assets/images/deployed-screenshot.png)
 
 ## Credits
 
