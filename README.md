@@ -6,7 +6,7 @@ This Homework assignment was completed for Week One of the U of M Bootcamp, to p
 [Click here to view the deployed webpage.](https://floatingpoint-exaflop.github.io/semantic-html)
 
 ## Screenshot of Deployed Version
-[Click here to view a preview screenshot of the deployed webpage](./assets/images/deployed-screenshot.png)
+![image](./assets/images/deployed-screenshot.png)
 
 ## Credits
 

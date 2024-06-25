@@ -1,18 +1,12 @@
-body {
-    background-color: #d9dcd6;
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* Moved the * selector back down below body. */
+    /* Moved the * selector to top. */
 }
 
-h1 {
-    color: #ffffff;
-    font-size: 400px;
-    /* Moved the h1 selector to below body selector. */
+body {
+    background-color: #d9dcd6;
 }
 
 .header {
@@ -22,9 +16,12 @@ h1 {
     color: #ffffff;
 }
 
-.header h1 {
+h1 {
+    color: #ffffff;
+    font-size: 400px;
     display: inline-block;
     font-size: 48px;
+    /* Moved the h1 selector to below header selector and combined with header h1. */
 }
 
 .seo {
@@ -39,13 +36,15 @@ h1 {
     font-size: 20px;
 }
 
-.header nav ul {
+ul {
     list-style-type: none;
+    /* Removed .header nav as there is only one kind of ul here */
 }
 
-.header nav ul li {
+li {
     display: inline-block;
     margin-left: 25px;
+    /* Removed .header nav ul as there is only one kind of ul here */
 }
 
 a {
@@ -83,7 +82,7 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+main.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,19 +92,17 @@ p {
     /* Consolidated identical css for the three main sections and moved above the aside sections' selectors */
 }
 
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+main.content section img {
     max-height: 200px;
     /* Consolidated identical css for the three main sections' imgs and moved above the aside sections' selectors */
 }
 
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+main.content section h2 {
     margin-bottom: 20px;
     font-size: 36px;
     /* Consolidated identical css for the three main sections' headers and moved above the aside sections' selectors */
 }
-
 
 .benefits {
     margin-right: 20px;
@@ -118,28 +115,26 @@ p {
     background-color: #2589bd;
 }
 
-
-.benefit-lead, .benefit-brand, .benefit-cost {
+aside.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
     /* Consolidated identical css for the three benefit section classes */
 }
 
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+aside.benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
     /* Consolidated identical css for the three benefit headers */
 }
 
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+aside.benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
     /* Consolidated identical css for the three benefit images */
 }
-
 
 .footer {
     padding: 30px;
@@ -148,7 +143,6 @@ p {
     text-align: center;
 }
 
-
-.footer h2 {
+.footer h3 {
     font-size: 20px;
 }
