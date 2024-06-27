@@ -14,6 +14,11 @@ Starter code used and modified with permission for instructional purposes from U
 
 Shoutout to [this blog post](https://www.seoptimer.com/blog/favicon-not-showing-up/) and [this tool](https://favicon.io/favicon-converter/) for the help with my favicon stuff.
 
+Contact Icons:
+[Email Icon](https://e7.pngegg.com/pngimages/831/627/png-clipart-computer-icons-email-symbol-email-miscellaneous-angle.png)
+[Instagram Icon](https://cdn-icons-png.flaticon.com/512/87/87390.png)
+[Discord Icon](https://discord.com/branding)
+
 ## License
 
 Please refer to the LICENSE in the repo.
